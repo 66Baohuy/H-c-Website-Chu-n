@@ -1,0 +1,54 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+body {
+  color: #a3a3a3;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.funiture {
+  margin: 30px auto;
+  width: 700px;
+}
+.funiture h2 {
+  color: black;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.funiture .photo {
+  margin: 20px;
+}
+
+.funiture h3 {
+  color: black;
+  margin-bottom: 20px;
+}
+.funiture .description {
+  margin-bottom: 20px;
+}
+
+.funiture .more a {
+  background-color: green;
+  color: white;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  height: 48px;
+  line-height: 48px;
+  min-width: 90px;
+  padding: 0 30px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s all;
+}
+
+.funiture .more a:hover {
+  background-color: chocolate;
+}
